@@ -1,0 +1,4 @@
+AuthName "52North - Delivery - citram.de-Beispiel"
+AuthType Basic
+AuthUserFile /srv/content-delivery-share/citram/.htpasswd
+require valid-user

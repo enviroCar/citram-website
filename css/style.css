@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,300,700,600);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:200,300,400,300,700,600);
 
 /* ### EXTRA SMALL ### */
 @media (max-width: 767px) {
@@ -93,7 +93,7 @@ icon-bar {
     height: 130px;
 }
 .divider_1 {
-    background-image: url("..//assets/divider_1.png");
+    background-image: url("../assets/divider_1.png");
 }
 .parallax {
     /* Set a specific height */
@@ -105,44 +105,44 @@ icon-bar {
     background-size: cover; 
 }
 .parallax-one { 
-    /*background-image: url("..//assets/envCar_Foto06.jpg");*/
-    background-image: url("..//assets/analyze2.png");
+    /*background-image: url("../assets/envCar_Foto06.jpg");*/
+    background-image: url("../assets/analyze2.png");
 }
 .parallax-two { 
-    background-image: url("..//assets/pexels3.jpg");
+    background-image: url("../assets/pexels3.jpg");
 }
 .parallax-three { 
-    background-image: url("..//assets/pexels4.jpg");
+    background-image: url("../assets/pexels4.jpg");
 }
 .parallax-four { 
-    background-image: url("..//assets/pexels2.jpeg");
+    background-image: url("../assets/pexels2.jpeg");
 }
 .parallax-five { 
-    background-image: url("..//assets/funding.png");
+    background-image: url("../assets/funding.png");
 }
 .parallax-six { 
-    background-image: url("..//assets/pixabay5.jpg");
+    background-image: url("../assets/pixabay5.jpg");
 }
 .parallax-faq { 
-    background-image: url("..//assets/faq.jpg");
+    background-image: url("../assets/faq.jpg");
 }
 .parallax-research { 
-    background-image: url("..//assets/rocket.jpg");
+    background-image: url("../assets/rocket.jpg");
 }
 .parallax-ana1 { 
-    background-image: url("..//assets/earth.jpg");
+    background-image: url("../assets/earth.jpg");
 }
 .parallax-ana2 { 
-    background-image: url("..//assets/analyze3.png");
+    background-image: url("../assets/analyze3.png");
 }
 /*.parallax-ana2 { 
-    background-image: url("..//assets/pixabay3.jpg");
+    background-image: url("../assets/pixabay3.jpg");
 }*/
 .parallax-ana3 { 
-    background-image: url("..//assets/analyze2.png");
+    background-image: url("../assets/analyze2.png");
 }
 .parallax-ana4 { 
-    background-image: url("..//assets/envCar_Foto06.jpg");
+    background-image: url("../assets/envCar_Foto06.jpg");
 }
 /* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 720px) {
@@ -280,6 +280,9 @@ nav {
 .lngOption {
     cursor: pointer;
 }
+footer {
+    color: #4f504a !important;
+}
 .footerLink:hover { 
     cursor: pointer;
     border-bottom: 1px solid rgb(255,255,255);
@@ -310,7 +313,7 @@ nav {
     padding-top: 24px; 
     padding-left: 24px;
     z-index: 1000;
-    background: url("..//assets/login_white.png");
+    background: url("../assets/login_white.png");
 }
 .nav-item>a:hover>img {
     width: 0px; 
@@ -320,7 +323,7 @@ nav {
     padding-bottom: 2px; 
     padding-top: 24px; 
     padding-left: 24px;
-    background: url("..//assets/login_blue.png");
+    background: url("../assets/login_blue.png");
 }
 .navbar-dark .navbar-nav .nav-link {
     /*color: #fff;*/
@@ -346,7 +349,7 @@ nav {
     padding-top: 24px; 
     padding-left: 24px;
     z-index: 1000;
-    background: url("..//assets/login_white.png");
+    background: url("../assets/login_white.png");
 }
 .nav-item-2>a:hover>img {
     width: 0px; 
@@ -356,7 +359,7 @@ nav {
     padding-bottom: 2px; 
     padding-top: 24px; 
     padding-left: 24px;
-    background: url("..//assets/login_blue.png");
+    background: url("../assets/login_blue.png");
 }
 .nav-item-2>a {
     color: #0064A0 !important;
@@ -1150,7 +1153,7 @@ iframe {
 /* App Section */
 .sectionApp {
     /* The image used */
-    /*background-image: url("..///assets/gasoline.jpg");*/
+    /*background-image: url("..//assets/gasoline.jpg");*/
 
     /* Full height */
     height: auto; 
@@ -1436,7 +1439,7 @@ header {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(..//assets/envCar_Foto06.jpg) no-repeat center center;
+    background: url(../assets/envCar_Foto06.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -1507,8 +1510,8 @@ header {
     display: block;
     content: ''; }
 .divider1 {
-    /*background-image: url("..//assets/pixabay1.jpg");*/
-    background-image: url("..//assets/envCar_Foto06.jpg");
+    /*background-image: url("../assets/pixabay1.jpg");*/
+    background-image: url("../assets/envCar_Foto06.jpg");
     background-size: cover;
     width: 100%;
     height: auto;
@@ -1522,7 +1525,7 @@ header {
     /* let's see it! */
     display: inline-block; }
 .divider2 {
-    background-image: url("..//assets/pixabay1.jpg");
+    background-image: url("../assets/pixabay1.jpg");
     background-size: cover;
     width: 100%;
     height: auto;
